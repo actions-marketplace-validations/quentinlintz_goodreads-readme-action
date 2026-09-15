@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" >
+  <channel>
+    <xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+    <title>Quentin's bookshelf: currently-reading</title>
+    <copyright><![CDATA[Copyright (C) 2026 Goodreads LLC. All rights reserved.]]>
+    </copyright>
+    <link><![CDATA[https://www.goodreads.com/review/list_rss/160841838?shelf=currently-reading]]></link>
+    <atom:link href="https://www.goodreads.com/review/list_rss/160841838?shelf=currently-reading" rel="self" type="application/rss+xml" />
+    <description><![CDATA[Quentin's bookshelf: currently-reading]]></description>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 08 Sep 2026 23:53:45 -0700</lastBuildDate>
+    <ttl>60</ttl>
+    <image>
+      <title>Quentin's bookshelf: currently-reading</title>
+      <link><![CDATA[https://www.goodreads.com/review/list_rss/160841838?shelf=currently-reading]]></link>
+      <width>144</width>
+      <height>41</height>
+      <url>https://www.goodreads.com/images/layout/goodreads_logo_144.jpg</url>
+    </image>
+    <item>
+      <guid><![CDATA[https://www.goodreads.com/review/show/8924474238?utm_medium=api&utm_source=rss]]></guid>
+      <pubDate><![CDATA[Mon, 07 Sep 2026 07:42:42 -0700]]></pubDate>
+      <title>The Sea, the Sea</title>
+      <link><![CDATA[https://www.goodreads.com/review/show/8924474238?utm_medium=api&utm_source=rss]]></link>
+      <book_id>9843479</book_id>
+      <book_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355943188l/9843479._SY75_.jpg]]></book_image_url>
+      <book_small_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355943188l/9843479._SY75_.jpg]]></book_small_image_url>
+      <book_medium_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355943188l/9843479._SX98_.jpg]]></book_medium_image_url>
+      <book_large_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355943188l/9843479.jpg]]></book_large_image_url>
+      <book_description><![CDATA[Charles Arrowby, leading light of England's theatrical set, retires from glittering London to an isolated home by the sea. He plans to write a memoir about his great love affair with Clement Makin, his mentor, both professionally and personally, and amuse himself with Lizzie, an actress he has strung along for many years. None of his plans work out, and his memoir evolves into a riveting chronicle of the strange events and unexpected visitors-some real, some spectral-that disrupt his world and shake his oversized ego to its very core.]]></book_description>
+      <book id="9843479">
+        <num_pages>495</num_pages>
+      </book>
+      <author_name>Iris Murdoch</author_name>
+      <isbn>1101495650</isbn>
+      <user_name>Quentin</user_name>
+      <user_rating>0</user_rating>
+      <user_read_at></user_read_at>
+      <user_date_added><![CDATA[Mon, 07 Sep 2026 07:42:42 -0700]]></user_date_added>
+      <user_date_created><![CDATA[Sun, 06 Sep 2026 14:22:42 -0700]]></user_date_created>
+      <user_shelves><![CDATA[currently-reading, classics, literary-fiction]]></user_shelves>
+      <user_review></user_review>
+      <average_rating>4.05</average_rating>
+      <book_published>1978</book_published>
+      <description>
+        <![CDATA[
+        <a href="https://www.goodreads.com/book/show/9843479-the-sea-the-sea?utm_medium=api&amp;utm_source=rss"><img alt="The Sea, the Sea" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355943188l/9843479._SY75_.jpg" /></a><br/>
+                                        author: Iris Murdoch<br/>
+                                        name: Quentin<br/>
+                                        average rating: 4.05<br/>
+                                        book published: 1978<br/>
+                                        rating: 0<br/>
+                                        read at: <br/>
+                                        date added: 2026/09/07<br/>
+                                        shelves: currently-reading, classics, literary-fiction<br/>
+                                        review: <br/><br/>
+                                        ]]>
+      </description>
+    </item>
+    <item>
+      <guid><![CDATA[https://www.goodreads.com/review/show/8889919757?utm_medium=api&utm_source=rss]]></guid>
+      <pubDate><![CDATA[Tue, 08 Sep 2026 23:53:45 -0700]]></pubDate>
+      <title><![CDATA[Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems]]></title>
+      <link><![CDATA[https://www.goodreads.com/review/show/8889919757?utm_medium=api&utm_source=rss]]></link>
+      <book_id>248156714</book_id>
+      <book_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1771369369l/248156714._SX50_.jpg]]></book_image_url>
+      <book_small_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1771369369l/248156714._SX50_.jpg]]></book_small_image_url>
+      <book_medium_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1771369369l/248156714._SX98_.jpg]]></book_medium_image_url>
+      <book_large_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1771369369l/248156714._SX318_.jpg]]></book_large_image_url>
+      <book_description><![CDATA[Data is at the center of many challenges in system design today. Difficult issues need to be figured out, such as scalability, consistency, reliability, efficiency, and maintainability. In addition, we have an overwhelming variety of tools, including relational databases, NoSQL datastores, stream or batch processors, and message brokers. What are the right choices for your application? How do you make sense of all these buzzwords? In this practical and comprehensive guide, author Martin Kleppmann helps you navigate this diverse landscape by examining the pros and cons of various technologies for processing and storing data. Software keeps changing, but the fundamental principles remain the same. With this book, software engineers and architects will learn how to apply those ideas in practice, and how to make full use of data in modern applications.]]></book_description>
+      <book id="248156714">
+        <num_pages>1194</num_pages>
+      </book>
+      <author_name>Martin Kleppmann</author_name>
+      <isbn>1098119029</isbn>
+      <user_name>Quentin</user_name>
+      <user_rating>0</user_rating>
+      <user_read_at></user_read_at>
+      <user_date_added><![CDATA[Tue, 08 Sep 2026 23:53:45 -0700]]></user_date_added>
+      <user_date_created><![CDATA[Tue, 25 Aug 2026 05:30:35 -0700]]></user_date_created>
+      <user_shelves><![CDATA[software-engineering, currently-reading]]></user_shelves>
+      <user_review></user_review>
+      <average_rating>4.66</average_rating>
+      <book_published>2015</book_published>
+      <description>
+        <![CDATA[
+        <a href="https://www.goodreads.com/book/show/248156714-designing-data-intensive-applications?utm_medium=api&amp;utm_source=rss"><img alt="Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1771369369l/248156714._SX50_.jpg" /></a><br/>
+                                        author: Martin Kleppmann<br/>
+                                        name: Quentin<br/>
+                                        average rating: 4.66<br/>
+                                        book published: 2015<br/>
+                                        rating: 0<br/>
+                                        read at: <br/>
+                                        date added: 2026/09/08<br/>
+                                        shelves: software-engineering, currently-reading<br/>
+                                        review: <br/><br/>
+                                        ]]>
+      </description>
+    </item>
+  </channel>
+</rss>

@@ -49,12 +49,14 @@ Profile README:
 
 ```markdown
 <!-- GOODREADS-LIST:START -->
-* [A Gentleman in Moscow](https://www.goodreads.com/book/show/45695810), Amor Towles ★★★☆☆
-* [Great Songwriting Techniques](https://www.goodreads.com/book/show/39704081), Jack Perricone
+
+- [A Gentleman in Moscow](https://www.goodreads.com/book/show/45695810), Amor Towles ★★★☆☆
+- [Great Songwriting Techniques](https://www.goodreads.com/book/show/39704081), Jack Perricone
+
 <!-- GOODREADS-LIST:END -->
 ```
 
-The stars are omitted if the book does not have a user rating or if the user hasn't enabled it.
+The stars are omitted if the book does not have a user rating or if the user hasn't enabled it. The default ordering is most-recently added at the top.
 
 ### Empty shelf
 
@@ -71,6 +73,7 @@ Profile README:
 
 ```markdown
 <!-- GOODREADS-LIST:START -->
+
 Shelf is empty
 <!-- GOODREADS-LIST:END -->
 ```

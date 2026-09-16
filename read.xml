@@ -1,0 +1,264 @@
+<?xml
+version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex"/>
+        <title>Quentin's bookshelf: read</title>
+        <copyright><![CDATA[Copyright (C) 2026 Goodreads LLC. All rights reserved.]]>
+    </copyright>
+        <link><![CDATA[https://www.goodreads.com/review/list_rss/160841838?shelf=read]]></link>
+        <atom:link href="https://www.goodreads.com/review/list_rss/160841838?shelf=read" rel="self" type="application/rss+xml"/>
+        <description><![CDATA[Quentin's bookshelf: read]]></description>
+        <language>en-US</language>
+        <lastBuildDate>Sun, 06 Sep 2026 14:21:57 -0700</lastBuildDate>
+        <ttl>60</ttl>
+        <image>
+            <title>Quentin's bookshelf: read</title>
+            <link><![CDATA[https://www.goodreads.com/review/list_rss/160841838?shelf=read]]></link>
+            <width>144</width>
+            <height>41</height>
+            <url>https://www.goodreads.com/images/layout/goodreads_logo_144.jpg</url>
+        </image>
+        <item>
+                <guid><![CDATA[https://www.goodreads.com/review/show/5288094325?utm_medium=api&utm_source=rss]]></guid>
+                <pubDate><![CDATA[Thu, 20 Aug 2026 05:29:32 -0700]]></pubDate>
+                <title><![CDATA[Cyrano De Bergerac : Heroic Comedy in Five Acts]]></title>
+                <link><![CDATA[https://www.goodreads.com/review/show/5288094325?utm_medium=api&utm_source=rss]]></link>
+                <book_id>424764</book_id>
+                <book_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387703749l/424764._SY75_.jpg]]></book_image_url>
+                <book_small_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387703749l/424764._SY75_.jpg]]></book_small_image_url>
+                <book_medium_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387703749l/424764._SY160_.jpg]]></book_medium_image_url>
+                <book_large_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387703749l/424764.jpg]]></book_large_image_url>
+                <book_description><![CDATA[Cyrano, the gallant soldier and brilliant wit, also is a timid lover, and, because of his nose, woos his love by proxy of a more handsome man.]]></book_description>
+                <book id="424764">
+                    <num_pages>220</num_pages>
+                </book>
+                <author_name>Edmond Rostand</author_name>
+                <isbn>0451525485</isbn>
+                <user_name>Quentin</user_name>
+                <user_rating>5</user_rating>
+                <user_read_at><![CDATA[Fri, 27 Jan 2023 00:00:00 +0000]]></user_read_at>
+                <user_date_added><![CDATA[Thu, 20 Aug 2026 05:29:32 -0700]]></user_date_added>
+                <user_date_created><![CDATA[Sun, 22 Jan 2023 19:34:09 -0800]]></user_date_created>
+                <user_shelves>plays, classics</user_shelves>
+                <user_review><![CDATA[The play “Cyrano de Bergerac” was written by Edmond Rostand in 1897. It’s a classic French play set in the 17th century. It tells the story of Cyrano, a talented but insecure poet and swordsman who helps his love interest (and cousin) Roxane win another man's heart by writing love letters on his behalf.<br /><br />Cyrano is brilliant at everything. He’s a French polymath. However, his one curse is his unpleasantly large nose. His nose could be seen as a source of insecurity for him, and it is frequently the target of insults. If someone insults his nose, Cyrano is quick to defend himself and will not hesitate to challenge the person to a duel. As a poet, Cyrano quickly creates clever insults against himself when he finds an opponent struggling to be creative. This makes me think he considers his nose a symbol of wit and courage.<br /><br />This play was written with such life! The wordplay and humor kept me wanting more. The displays of virtue were heartfelt and inspiring. Cyrano’s final speech is emotional and passionate. We all have white plumes, but too many will consider parting with them.<br /><br />Read my full review (with spoilers) on <a href="https://universalset.substack.com/p/review-cyrano-de-bergerac-by-edmond" rel="nofollow noopener">my Substack</a>.]]></user_review>
+                <average_rating>4.09</average_rating>
+                <book_published>1897</book_published>
+                <description>
+                  <![CDATA[
+                  <a href="https://www.goodreads.com/book/show/424764.Cyrano_De_Bergerac_?utm_medium=api&amp;utm_source=rss"><img alt="Cyrano De Bergerac : Heroic Comedy in Five Acts" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387703749l/424764._SY75_.jpg" /></a><br/>
+                                                  author: Edmond Rostand<br/>
+                                                  name: Quentin<br/>
+                                                  average rating: 4.09<br/>
+                                                  book published: 1897<br/>
+                                                  rating: 5<br/>
+                                                  read at: 2023/01/27<br/>
+                                                  date added: 2026/08/20<br/>
+                                                  shelves: plays, classics<br/>
+                                                  review: <br/>The play “Cyrano de Bergerac” was written by Edmond Rostand in 1897. It’s a classic French play set in the 17th century. It tells the story of Cyrano, a talented but insecure poet and swordsman who helps his love interest (and cousin) Roxane win another man's heart by writing love letters on his behalf.<br /><br />Cyrano is brilliant at everything. He’s a French polymath. However, his one curse is his unpleasantly large nose. His nose could be seen as a source of insecurity for him, and it is frequently the target of insults. If someone insults his nose, Cyrano is quick to defend himself and will not hesitate to challenge the person to a duel. As a poet, Cyrano quickly creates clever insults against himself when he finds an opponent struggling to be creative. This makes me think he considers his nose a symbol of wit and courage.<br /><br />This play was written with such life! The wordplay and humor kept me wanting more. The displays of virtue were heartfelt and inspiring. Cyrano’s final speech is emotional and passionate. We all have white plumes, but too many will consider parting with them.<br /><br />Read my full review (with spoilers) on <a href="https://universalset.substack.com/p/review-cyrano-de-bergerac-by-edmond" rel="nofollow noopener">my Substack</a>.<br/>
+                                                  ]]>
+                </description>
+        </item>
+        <item>
+            <guid><![CDATA[https://www.goodreads.com/review/show/7122260902?utm_medium=api&utm_source=rss]]></guid>
+            <pubDate><![CDATA[Thu, 20 Aug 2026 05:26:30 -0700]]></pubDate>
+            <title>Ring (Ring, #1)</title>
+            <link><![CDATA[https://www.goodreads.com/review/show/7122260902?utm_medium=api&utm_source=rss]]></link>
+            <book_id>38379</book_id>
+            <book_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388494987l/38379._SY75_.jpg]]></book_image_url>
+            <book_small_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388494987l/38379._SY75_.jpg]]></book_small_image_url>
+            <book_medium_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388494987l/38379._SX98_.jpg]]></book_medium_image_url>
+            <book_large_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388494987l/38379.jpg]]></book_large_image_url>
+            <book_description><![CDATA[A mysterious videotape warns that the viewer will die in one week unless a certain, unspecified act is performed. Exactly one week after watching the tape, four teenagers die one after another of heart failure. <br /><br />Asakawa, a hardworking journalist, is intrigued by his niece's inexplicable death. His investigation leads him from a metropolitan tokyo teeming with modern society's fears to a rural Japan--a mountain resort, a volcanic island, and a countryside clinic--haunted by the past. His attempt to solve the tape's mystery before it's too late--for everyone--assumes an increasingly deadly urgency. Ring is a chillingly told horror story, a masterfully suspenseful mystery, and post-modern trip.]]></book_description>
+            <book id="38379">
+                <num_pages>282</num_pages>
+            </book>
+            <author_name>Kōji Suzuki</author_name>
+            <isbn>1932234411</isbn>
+            <user_name>Quentin</user_name>
+            <user_rating>5</user_rating>
+            <user_read_at></user_read_at>
+            <user_date_added><![CDATA[Thu, 20 Aug 2026 05:26:30 -0700]]></user_date_added>
+            <user_date_created><![CDATA[Thu, 26 Dec 2024 15:36:13 -0800]]></user_date_created>
+            <user_shelves>horror, japanese-literature</user_shelves>
+            <user_review><![CDATA[I stumbled across a Suzuki book in the music section of a Sugar Land, TX Barnes &amp; Noble and thought it was out of place. I was right. After reading that the author is known as the Stephen King of Japanese fiction, my interest was piqued. I was too young to watch "The Ring" (2002) when it released and the trailer gave me nightmares. The book is <i>not</i> scary, but rather a mystery and suspense feel.<br /><br />"Ring" is so impressive with multiple twists. The plot kicks off at a breakneck pace and keeps a suspenseful momentum throughout. Suzuki apparently wrote this with his infant child on his lap and it shows a little in the plot[0]. Despite some possible misrepresentation and ill-handling of subjects given the time it was written[1] and an obscure, meaningless twist near the end[2], I would recommend "Ring" as a fantastic paranormal mystery novel.<br /><br />[spoilers removed]]]></user_review>
+            <average_rating>3.77</average_rating>
+            <book_published>1991</book_published>
+            <description>
+              <![CDATA[
+              <a href="https://www.goodreads.com/book/show/38379.Ring?utm_medium=api&amp;utm_source=rss"><img alt="Ring (Ring, #1)" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388494987l/38379._SY75_.jpg" /></a><br/>
+                                              author: Kōji Suzuki<br/>
+                                              name: Quentin<br/>
+                                              average rating: 3.77<br/>
+                                              book published: 1991<br/>
+                                              rating: 5<br/>
+                                              read at: <br/>
+                                              date added: 2026/08/20<br/>
+                                              shelves: horror, japanese-literature<br/>
+                                              review: <br/>I stumbled across a Suzuki book in the music section of a Sugar Land, TX Barnes &amp; Noble and thought it was out of place. I was right. After reading that the author is known as the Stephen King of Japanese fiction, my interest was piqued. I was too young to watch "The Ring" (2002) when it released and the trailer gave me nightmares. The book is <i>not</i> scary, but rather a mystery and suspense feel.<br /><br />"Ring" is so impressive with multiple twists. The plot kicks off at a breakneck pace and keeps a suspenseful momentum throughout. Suzuki apparently wrote this with his infant child on his lap and it shows a little in the plot[0]. Despite some possible misrepresentation and ill-handling of subjects given the time it was written[1] and an obscure, meaningless twist near the end[2], I would recommend "Ring" as a fantastic paranormal mystery novel.<br /><br />[spoilers removed]<br/>
+                                              ]]>
+            </description>
+        </item>
+        <item>
+            <guid><![CDATA[https://www.goodreads.com/review/show/8860071143?utm_medium=api&utm_source=rss]]></guid>
+            <pubDate><![CDATA[Sun, 06 Sep 2026 14:21:57 -0700]]></pubDate>
+            <title>A Gentleman in Moscow</title>
+            <link><![CDATA[https://www.goodreads.com/review/show/8860071143?utm_medium=api&utm_source=rss]]></link>
+            <book_id>45695810</book_id>
+            <book_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624531706l/45695810._SY75_.jpg]]></book_image_url>
+            <book_small_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624531706l/45695810._SY75_.jpg]]></book_small_image_url>
+            <book_medium_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624531706l/45695810._SX98_.jpg]]></book_medium_image_url>
+            <book_large_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624531706l/45695810.jpg]]></book_large_image_url>
+            <book_description><![CDATA[<i>Alternate cover editions for ASIN B01COJUEZ0 can be found <a href="https://www.goodreads.com/book/show/216652963-a-gentleman-in-moscow" rel="nofollow noopener">here</a>, <a href="https://www.goodreads.com/book/show/61161251-a-gentleman-in-moscow" rel="nofollow noopener">here</a>, and <a href="https://www.goodreads.com/book/show/30007916-a-gentleman-in-moscow" rel="nofollow noopener">here</a></i>.<br /><br /><b>From the <i>New York Times</i> bestselling author of <i>Rules of Civility</i>, a novel about a man who is ordered to spend the rest of his life inside a luxury hotel—a beautifully transporting novel.</b><br /><br />In 1922, Count Alexander Rostov is deemed an unrepentant aristocrat by a Bolshevik tribunal, and is sentenced to house arrest in the Metropol, a grand hotel across the street from the Kremlin. Rostov, an indomitable man of erudition and wit, has never worked a day in his life, and must now live in an attic room while some of the most tumultuous decades in Russian history are unfolding outside the hotel’s doors. Unexpectedly, his reduced circumstances provide him entry into a much larger world of emotional discovery.<br /><br /> Brimming with humor, a glittering cast of characters, and one beautifully rendered scene after another, this singular novel casts a spell as it relates the count’s endeavor to gain a deeper understanding of what it means to be a man of purpose.]]></book_description>
+            <book id="45695810">
+                <num_pages>466</num_pages>
+            </book>
+            <author_name>Amor Towles</author_name>
+            <isbn></isbn>
+            <user_name>Quentin</user_name>
+            <user_rating>3</user_rating>
+            <user_read_at><![CDATA[Tue, 1 Sep 2026 00:00:00 +0000]]></user_read_at>
+            <user_date_added><![CDATA[Sun, 06 Sep 2026 14:21:57 -0700]]></user_date_added>
+            <user_date_created><![CDATA[Fri, 14 Aug 2026 16:30:07 -0700]]></user_date_created>
+            <user_shelves>literary-fiction</user_shelves>
+            <user_review><![CDATA[Rostov, under house arrest, has the world arriving to the Metropol. It's fascinating how a life can be so rich under that kind of local constraint. Towles' prose -- like Ishiguro's -- is elegant and poetic. Actually, I didn't expect <i>A Gentleman in Moscow</i> to have so many comedic moments! I was expecting the Count to struggle internally against his home-imprisonment, but that never arrived. Instead we have to accept a kind of psychological idealization of Rostov.]]></user_review>
+            <average_rating>4.47</average_rating>
+            <book_published>2016</book_published>
+            <description>
+              <![CDATA[
+              <a href="https://www.goodreads.com/book/show/45695810-a-gentleman-in-moscow?utm_medium=api&amp;utm_source=rss"><img alt="A Gentleman in Moscow" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624531706l/45695810._SY75_.jpg" /></a><br/>
+                                              author: Amor Towles<br/>
+                                              name: Quentin<br/>
+                                              average rating: 4.47<br/>
+                                              book published: 2016<br/>
+                                              rating: 3<br/>
+                                              read at: 2026/09/01<br/>
+                                              date added: 2026/09/06<br/>
+                                              shelves: literary-fiction<br/>
+                                              review: <br/>Rostov, under house arrest, has the world arriving to the Metropol. It's fascinating how a life can be so rich under that kind of local constraint. Towles' prose -- like Ishiguro's -- is elegant and poetic. Actually, I didn't expect <i>A Gentleman in Moscow</i> to have so many comedic moments! I was expecting the Count to struggle internally against his home-imprisonment, but that never arrived. Instead we have to accept a kind of psychological idealization of Rostov.<br/>
+                                              ]]>
+            </description>
+        </item>
+        <item>
+            <guid><![CDATA[https://www.goodreads.com/review/show/8421255733?utm_medium=api&utm_source=rss]]></guid>
+            <pubDate><![CDATA[Sun, 30 Aug 2026 16:33:46 -0700]]></pubDate>
+            <title>Great Songwriting Techniques</title>
+            <link><![CDATA[https://www.goodreads.com/review/show/8421255733?utm_medium=api&utm_source=rss]]></link>
+            <book_id>39704081</book_id>
+            <book_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1522683060l/39704081._SX50_.jpg]]></book_image_url>
+            <book_small_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1522683060l/39704081._SX50_.jpg]]></book_small_image_url>
+            <book_medium_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1522683060l/39704081._SX98_.jpg]]></book_medium_image_url>
+            <book_large_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1522683060l/39704081._SX318_.jpg]]></book_large_image_url>
+            <book_description><![CDATA[In Great Songwriting Techniques, veteran composer and teacher Jack Perricone shares years of experience in the art, science, and pedagogy of songwriting to teach readers the craft. Whether they write for a small group of friends or in the hopes of creating a smash hit, aspiring songwriters can learn how to focus on topics essential to their success in this competitive field; every songwriter must be aware of audience, thick-skinned enough to handle rejection and competition, and most importantly have the confidence to master the craft of composing and producing. Perricone teaches readers to accomplish this through a targeted series of lessons on key elements of songwriting from building blocks like melody, harmony, and rhythm to more advanced topics like lyric placement and tone texture. Chapters explore loop-based harmonic patterns, tone tendencies, form, function, and lyric writing, all in service of preparing the aspiring songwriter to be a master of prosody and keen in understanding the relationship between words and music. The volume includes examples of exceptional songwriting from well-known artists such as Irving Berlin, Prince, Bob Dylan, Stevie Wonder, Justin Timberlake, and Taylor Swift.]]></book_description>
+            <book id="39704081">
+                <num_pages>567</num_pages>
+            </book>
+            <author_name>Jack Perricone</author_name>
+            <isbn>0199968055</isbn>
+            <user_name>Quentin</user_name>
+            <user_rating>5</user_rating>
+            <user_read_at><![CDATA[Sun, 30 Aug 2026 00:00:00 +0000]]></user_read_at>
+            <user_date_added><![CDATA[Sun, 30 Aug 2026 16:33:46 -0700]]></user_date_added>
+            <user_date_created><![CDATA[Sun, 08 Mar 2026 14:35:49 -0700]]></user_date_created>
+            <user_shelves>music, songwriting</user_shelves>
+            <user_review><![CDATA[I've never found a book as complete as <i>Great Songwriting Techniques</i> for covering the full songwriting process. It's a difficult task to explain music only in words, so this book has companion audio tracks (which I didn't make use of). Perricone is observant to song construction and points out interesting elements of popular songs that I had never recognized. <br /><br />This book is absolutely for musicians with a strong understanding of music theory. When absorbed slowly, it will without a doubt arm you with a <i>multitude</i> techniques you can use in your own songwriting. Even without listening to the audio tracks, it makes a great reference book.]]></user_review>
+            <average_rating>4.86</average_rating>
+            <book_published></book_published>
+            <description>
+              <![CDATA[
+              <a href="https://www.goodreads.com/book/show/39704081-great-songwriting-techniques?utm_medium=api&amp;utm_source=rss"><img alt="Great Songwriting Techniques" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1522683060l/39704081._SX50_.jpg" /></a><br/>
+                                              author: Jack Perricone<br/>
+                                              name: Quentin<br/>
+                                              average rating: 4.86<br/>
+                                              book published: <br/>
+                                              rating: 5<br/>
+                                              read at: 2026/08/30<br/>
+                                              date added: 2026/08/30<br/>
+                                              shelves: music, songwriting<br/>
+                                              review: <br/>I've never found a book as complete as <i>Great Songwriting Techniques</i> for covering the full songwriting process. It's a difficult task to explain music only in words, so this book has companion audio tracks (which I didn't make use of). Perricone is observant to song construction and points out interesting elements of popular songs that I had never recognized. <br /><br />This book is absolutely for musicians with a strong understanding of music theory. When absorbed slowly, it will without a doubt arm you with a <i>multitude</i> techniques you can use in your own songwriting. Even without listening to the audio tracks, it makes a great reference book.<br/>
+                                              ]]>
+            </description>
+        </item>
+        <item>
+            <guid><![CDATA[https://www.goodreads.com/review/show/8800157375?utm_medium=api&utm_source=rss]]></guid>
+            <pubDate><![CDATA[Thu, 20 Aug 2026 18:31:01 -0700]]></pubDate>
+            <title><![CDATA[Tomorrow, and Tomorrow, and Tomorrow]]></title>
+            <link><![CDATA[https://www.goodreads.com/review/show/8800157375?utm_medium=api&utm_source=rss]]></link>
+            <book_id>77262337</book_id>
+            <book_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673647488l/77262337._SY75_.jpg]]></book_image_url>
+            <book_small_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673647488l/77262337._SY75_.jpg]]></book_small_image_url>
+            <book_medium_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673647488l/77262337._SX98_.jpg]]></book_medium_image_url>
+            <book_large_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673647488l/77262337._SY475_.jpg]]></book_large_image_url>
+            <book_description><![CDATA[<i>An alternative cover edition for this ASIN can be found <a href="https://www.goodreads.com/book/show/58916147-tomorrow-and-tomorrow-and-tomorrow" rel="nofollow noopener">here</a>.</i><br /><br /><b>In this exhilarating novel by the best-selling author of <i>The Storied Life of A. J. Fikry</i> two friends--often in love, but never lovers--come together as creative partners in the world of video game design, where success brings them fame, joy, tragedy, duplicity, and, ultimately, a kind of immortality.</b><br /><br />On a bitter-cold day, in the December of his junior year at Harvard, Sam Masur exits a subway car and sees, amid the hordes of people waiting on the platform, Sadie Green. He calls her name. For a moment, she pretends she hasn't heard him, but then, she turns, and a game begins: a legendary collaboration that will launch them to stardom. These friends, intimates since childhood, borrow money, beg favors, and, before even graduating college, they have created their first blockbuster, <i> Ichigo</i>. Overnight, the world is theirs. Not even twenty-five years old, Sam and Sadie are brilliant, successful, and rich, but these qualities won't protect them from their own creative ambitions or the betrayals of their hearts.<br /><br />Spanning thirty years, from Cambridge, Massachusetts, to Venice Beach, California, and lands in between and far beyond, Gabrielle Zevin's <i>Tomorrow, and Tomorrow, and Tomorrow</i> is a dazzling and intricately imagined novel that examines the multifarious nature of identity, disability, failure, the redemptive possibilities in play, and above all, our need to connect: to be loved and to love. Yes, it is a love story, but it is not one you have read before.]]></book_description>
+            <book id="77262337">
+                <num_pages>399</num_pages>
+            </book>
+            <author_name>Gabrielle Zevin</author_name>
+            <isbn></isbn>
+            <user_name>Quentin</user_name>
+            <user_rating>2</user_rating>
+            <user_read_at><![CDATA[Thu, 20 Aug 2026 00:00:00 +0000]]></user_read_at>
+            <user_date_added><![CDATA[Thu, 20 Aug 2026 18:31:01 -0700]]></user_date_added>
+            <user_date_created><![CDATA[Sat, 25 Jul 2026 07:16:37 -0700]]></user_date_created>
+            <user_shelves>literary-fiction</user_shelves>
+            <user_review></user_review>
+            <average_rating>4.20</average_rating>
+            <book_published>2022</book_published>
+            <description>
+      <![CDATA[
+      <a href="https://www.goodreads.com/book/show/77262337-tomorrow-and-tomorrow-and-tomorrow?utm_medium=api&amp;utm_source=rss"><img alt="Tomorrow, and Tomorrow, and Tomorrow" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673647488l/77262337._SY75_.jpg" /></a><br/>
+                                      author: Gabrielle Zevin<br/>
+                                      name: Quentin<br/>
+                                      average rating: 4.20<br/>
+                                      book published: 2022<br/>
+                                      rating: 2<br/>
+                                      read at: 2026/08/20<br/>
+                                      date added: 2026/08/20<br/>
+                                      shelves: literary-fiction<br/>
+                                      review: <br/><br/>
+                                      ]]>
+    </description>
+        </item>
+        <item>
+            <guid><![CDATA[https://www.goodreads.com/review/show/5230094857?utm_medium=api&utm_source=rss]]></guid>
+            <pubDate><![CDATA[Thu, 20 Aug 2026 05:30:12 -0700]]></pubDate>
+            <title>Atlas Shrugged</title>
+            <link><![CDATA[https://www.goodreads.com/review/show/5230094857?utm_medium=api&utm_source=rss]]></link>
+            <book_id>831575</book_id>
+            <book_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330538358l/831575._SY75_.jpg]]></book_image_url>
+            <book_small_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330538358l/831575._SY75_.jpg]]></book_small_image_url>
+            <book_medium_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330538358l/831575._SY160_.jpg]]></book_medium_image_url>
+            <book_large_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330538358l/831575.jpg]]></book_large_image_url>
+            <book_description> Signet (1985) English</book_description>
+            <book id="831575">
+                <num_pages>1084</num_pages>
+            </book>
+            <author_name>Ayn Rand</author_name>
+            <isbn>0451157486</isbn>
+            <user_name>Quentin</user_name>
+            <user_rating>5</user_rating>
+            <user_read_at><![CDATA[Tue, 12 Dec 2023 00:00:00 +0000]]></user_read_at>
+            <user_date_added><![CDATA[Thu, 20 Aug 2026 05:30:12 -0700]]></user_date_added>
+            <user_date_created><![CDATA[Wed, 04 Jan 2023 11:04:29 -0800]]></user_date_created>
+            <user_shelves><![CDATA[favorites, classics, literary-fiction]]></user_shelves>
+            <user_review></user_review>
+            <average_rating>3.48</average_rating>
+            <book_published>1957</book_published>
+            <description>
+              <![CDATA[
+              <a href="https://www.goodreads.com/book/show/831575.Atlas_Shrugged?utm_medium=api&amp;utm_source=rss"><img alt="Atlas Shrugged" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330538358l/831575._SY75_.jpg" /></a><br/>
+                                              author: Ayn Rand<br/>
+                                              name: Quentin<br/>
+                                              average rating: 3.48<br/>
+                                              book published: 1957<br/>
+                                              rating: 5<br/>
+                                              read at: 2023/12/12<br/>
+                                              date added: 2026/08/20<br/>
+                                              shelves: favorites, classics, literary-fiction<br/>
+                                              review: <br/><br/>
+                                              ]]>
+            </description>
+        </item>
+ 
+  </channel>
+</rss>

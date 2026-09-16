@@ -1,0 +1,62 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex"/>
+        <title>Quentin's bookshelf: history</title>
+        <copyright><![CDATA[Copyright (C) 2026 Goodreads LLC. All rights reserved.]]>
+    </copyright>
+        <link><![CDATA[https://www.goodreads.com/review/list_rss/160841838?shelf=history]]></link>
+        <atom:link href="https://www.goodreads.com/review/list_rss/160841838?shelf=history" rel="self" type="application/rss+xml"/>
+        <description><![CDATA[Quentin's bookshelf: history]]></description>
+        <language>en-US</language>
+        <lastBuildDate>Thu, 20 Aug 2026 05:28:51 -0700</lastBuildDate>
+        <ttl>60</ttl>
+        <image>
+            <title>Quentin's bookshelf: history</title>
+            <link><![CDATA[https://www.goodreads.com/review/list_rss/160841838?shelf=history]]></link>
+            <width>144</width>
+            <height>41</height>
+            <url>https://www.goodreads.com/images/layout/goodreads_logo_144.jpg</url>
+        </image>
+        <item>
+            <guid><![CDATA[https://www.goodreads.com/review/show/6033872271?utm_medium=api&utm_source=rss]]></guid>
+            <pubDate><![CDATA[Thu, 20 Aug 2026 05:28:51 -0700]]></pubDate>
+            <title><![CDATA[Our Oriental Heritage (The Story of Civilization, #1)*]]></title>
+            <link><![CDATA[https://www.goodreads.com/review/show/6033872271?utm_medium=api&utm_source=rss]]></link>
+            <book_id>49871725</book_id>
+            <book_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563716531l/49871725._SX50_SY75_.jpg]]></book_image_url>
+            <book_small_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563716531l/49871725._SX50_SY75_.jpg]]></book_small_image_url>
+            <book_medium_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563716531l/49871725._SX98_SY160_.jpg]]></book_medium_image_url>
+            <book_large_image_url><![CDATA[https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563716531l/49871725._SX318_SY475_.jpg]]></book_large_image_url>
+            <book_description><![CDATA[Here is the first volume of this <i>Story of Civilization, Our Oriental Heritage</i>, complete in itself. Dr. Durant worked on it steadily from 1927 to 1932, &amp; the book represents the third complete rewriting. <i>Our Oriental Heritage</i> deals first with the establishment of civilization, then takes up, not in rapid review but in richly fascinating detail, the colorful, complex dramas of the Near East, India &amp; her neighbors, &amp; the Far East. The story is carried up to mid-30s. <i>The Story of Civilization</i> represents the most comprehensive attempt in our times to embrace the vast panorama of human history &amp; culture.]]></book_description>
+            <book id="49871725">
+                <num_pages>1049</num_pages>
+            </book>
+            <author_name>Will Durant</author_name>
+            <isbn></isbn>
+            <user_name>Quentin</user_name>
+            <user_rating>3</user_rating>
+            <user_read_at><![CDATA[Fri, 25 Jul 2025 00:00:00 +0000]]></user_read_at>
+            <user_date_added><![CDATA[Thu, 20 Aug 2026 05:28:51 -0700]]></user_date_added>
+            <user_date_created><![CDATA[Fri, 08 Dec 2023 10:11:44 -0800]]></user_date_created>
+            <user_shelves>history</user_shelves>
+            <user_review><![CDATA[Exceptional scholarship on ancient history as well as origins and progression of specific Eastern countries like China, India, Japan, and Israel. Durant has a special, narrative way of writing histories that just doesn't exist anywhere today.<br /><br />This volume is built on a lot of speculation. Since it was published in 1935, I suspect some of the information is outdated and incorrect. I noticed antiquated naming for certain historical figures and locations. Durant also jumps around between stories too much; one paragraph about a military commander and the next about his successor. It's so brief that it's difficult for me to give significance to any minor figure. However, when Durant hones in on one person he can really bloom a strong story.<br /><br />Anyone interested in ancient history: I would not recommend reading this cover-to-cover in 2025.]]></user_review>
+            <average_rating>4.38</average_rating>
+            <book_published>1935</book_published>
+            <description>
+      <![CDATA[
+      <a href="https://www.goodreads.com/book/show/49871725-our-oriental-heritage?utm_medium=api&amp;utm_source=rss"><img alt="Our Oriental Heritage (The Story of Civilization, #1)" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563716531l/49871725._SX50_SY75_.jpg" /></a><br/>
+                                      author: Will Durant<br/>
+                                      name: Quentin<br/>
+                                      average rating: 4.38<br/>
+                                      book published: 1935<br/>
+                                      rating: 3<br/>
+                                      read at: 2025/07/25<br/>
+                                      date added: 2026/08/20<br/>
+                                      shelves: history<br/>
+                                      review: <br/>Exceptional scholarship on ancient history as well as origins and progression of specific Eastern countries like China, India, Japan, and Israel. Durant has a special, narrative way of writing histories that just doesn't exist anywhere today.<br /><br />This volume is built on a lot of speculation. Since it was published in 1935, I suspect some of the information is outdated and incorrect. I noticed antiquated naming for certain historical figures and locations. Durant also jumps around between stories too much; one paragraph about a military commander and the next about his successor. It's so brief that it's difficult for me to give significance to any minor figure. However, when Durant hones in on one person he can really bloom a strong story.<br /><br />Anyone interested in ancient history: I would not recommend reading this cover-to-cover in 2025.<br/>
+                                      ]]>
+    </description>
+        </item>
+    </channel>
+</rss>
+

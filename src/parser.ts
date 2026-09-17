@@ -1,7 +1,8 @@
 import { z } from "zod";
 import { XMLParser } from "fast-xml-parser";
+import { SyntaxValidator } from "fast-xml-validator";
 
-export const BookSchema = z.object({
+export const bookSchema = z.object({
   title: z.string().min(1),
   book_id: z.number().int().min(1),
   author_name: z.string().min(1),
@@ -9,19 +10,20 @@ export const BookSchema = z.object({
   user_read_at: z.string().optional(),
   user_date_added: z.string().optional(),
 });
-export type Book = z.infer<typeof BookSchema>;
+export type Book = z.infer<typeof bookSchema>;
 
-const RSSDataSchema = z.object({
+const rssSchema = z.object({
   rss: z.object({
     channel: z.object({
-      item: BookSchema,
+      item: bookSchema,
     }),
   }),
 });
 
 export const parseXml = (xml: string): Book => {
+  SyntaxValidator.validate(xml);
   const parser = new XMLParser();
   const parsedXml = parser.parse(xml) as unknown;
-  const rssData = RSSDataSchema.parse(parsedXml);
+  const rssData = rssSchema.parse(parsedXml);
   return rssData.rss.channel.item;
 };

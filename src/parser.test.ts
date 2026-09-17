@@ -42,4 +42,11 @@ describe("parseXml", () => {
       }
     }
   });
+
+  test("mismatched title tags", () => {
+    const titleMismatch = singleBookXmlData.replace("</title>", "</wrong>");
+    expect(() => parseXml(titleMismatch)).toThrow(
+      "Expected closing tag 'title' (opened in line 4, col 9) instead of closing tag 'wrong'.",
+    );
+  });
 });

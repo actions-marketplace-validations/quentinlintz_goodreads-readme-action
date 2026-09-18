@@ -26,7 +26,10 @@ export const bookSchema = z.object({
   title: z.string().min(1),
   book_id: z.number().int().min(1),
   author_name: z.string().min(1),
-  user_rating: z.number().int().min(0).max(5),
+  user_rating: z.preprocess(
+    (rating) => (rating === "" ? 0 : rating),
+    z.number().int().min(0).max(5),
+  ),
   user_read_at: z
     .string()
     .optional()
@@ -41,18 +44,26 @@ export type Book = z.infer<typeof bookSchema>;
 
 const rssSchema = z.object({
   rss: z.object({
-    channel: z.object({
-      item: bookSchema.array().optional(),
-    }),
+    channel: z.preprocess(
+      (data) => (data === "" ? {} : data),
+      z.object({
+        item: bookSchema.array().optional(),
+      }),
+    ),
   }),
 });
 
 const options = {
-  isArray: (_tagName: string, jpath: JPathOrMatcher) => {
-    if (jpath === "rss.channel.item") {
-      return true;
+  isArray: (_tagName: string, jpath: JPathOrMatcher) =>
+    jpath === "rss.channel.item",
+  tagValueProcessor: (_tagName: string, val: string, jpath: JPathOrMatcher) => {
+    if (
+      jpath === "rss.channel.item.title" ||
+      jpath === "rss.channel.item.author_name"
+    ) {
+      return undefined;
     }
-    return false;
+    return val;
   },
 };
 

@@ -141,6 +141,65 @@ describe("parseXml", () => {
     }
   });
 
+  test("zero rating", () => {
+    const blankRating = singleBookXmlData.replace(
+      "<user_rating>3</user_rating>",
+      "<user_rating>0</user_rating>",
+    );
+    const books = parseXml(blankRating);
+    expect(books).toHaveLength(1);
+    expect(books[0]?.user_rating).toBe(0);
+  });
+
+  test("leading zeroes in rating", () => {
+    const blankRating = singleBookXmlData.replace(
+      "<user_rating>3</user_rating>",
+      "<user_rating>003</user_rating>",
+    );
+    const books = parseXml(blankRating);
+    expect(books).toHaveLength(1);
+    expect(books[0]?.user_rating).toBe(3);
+  });
+
+  test("blank rating", () => {
+    const blankRating = singleBookXmlData.replace(
+      "<user_rating>3</user_rating>",
+      "<user_rating></user_rating>",
+    );
+    const books = parseXml(blankRating);
+    expect(books.length).toBe(1);
+    expect(books[0]).toBeDefined();
+    expect(books[0]?.user_rating).toBe(0);
+  });
+
+  test("numeric title", () => {
+    const numericTitle = singleBookXmlData.replace(
+      "<title><![CDATA[Our Oriental Heritage (The Story of Civilization, #1)*]]></title>",
+      "<title><![CDATA[1984]]></title>",
+    );
+    const books = parseXml(numericTitle);
+    expect(books.length).toBe(1);
+    expect(books[0]).toBeDefined();
+    expect(books[0]?.title).toBe("1984");
+  });
+
+  test("numeric title parsed", () => {
+    const numericTitle = singleBookXmlData.replace(
+      "<title><![CDATA[Our Oriental Heritage (The Story of Civilization, #1)*]]></title>",
+      "<title><![CDATA[1e3]]></title>",
+    );
+    const books = parseXml(numericTitle);
+    expect(books.length).toBe(1);
+    expect(books[0]).toBeDefined();
+    expect(books[0]?.title).toBe("1e3");
+  });
+
+  test("empty channel", () => {
+    const emptyChannel = `<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" ><channel></channel></rss>`;
+    const books = parseXml(emptyChannel);
+    expect(books).toHaveLength(0);
+  });
+
   test("absent field", () => {
     const absentField = readXmlData.replace(
       "<user_read_at><![CDATA[Tue, 12 Dec 2023 00:00:00 +0000]]></user_read_at>",
@@ -207,7 +266,7 @@ describe("parseXml", () => {
           expect.arrayContaining([
             expect.objectContaining({
               code: "custom",
-              message: `Invalid date string: Tue, 12 De2023 00:00:00 +0000`,
+              message: "Invalid date string: Tue, 12 De2023 00:00:00 +0000",
               path: ["rss", "channel", "item", 5, "user_read_at"],
             }),
           ]),

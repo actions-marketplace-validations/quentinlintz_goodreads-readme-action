@@ -67,22 +67,24 @@ describe("full pipeline", () => {
   test("currently reading shelf sorted by date added, limit 10, ratings on", () => {
     expect(
       pipeline(currentlyReadingXmlData, SortChoice.DateAdded, 10, true),
-    ).toBe(currentlyReadingRendered);
+    ).toBe(currentlyReadingRendered.replace(/\n$/, ""));
   });
 
   test("read shelf sorted by date read, limit 6, ratings on", () => {
     expect(pipeline(readXmlData, SortChoice.DateRead, 6, true)).toBe(
-      readRendered,
+      readRendered.replace(/\n$/, ""),
     );
   });
 
   test("single book shelf sorted by date added, limit 1, ratings off", () => {
     expect(pipeline(singleBookXmlData, SortChoice.DateAdded, 1, false)).toBe(
-      singleBookRendered,
+      singleBookRendered.replace(/\n$/, ""),
     );
   });
 
   test("valid empty shelf, all defaults", () => {
-    expect(pipeline(validEmptyXmlData)).toBe(validEmptyRendered);
+    expect(pipeline(validEmptyXmlData)).toBe(
+      validEmptyRendered.replace(/\n$/, ""),
+    );
   });
 });

@@ -12,7 +12,7 @@ export const renderShelf = (
   showRating: boolean = false,
 ): string => {
   if (shelf.length === 0) {
-    return "Shelf is empty\n";
+    return "Shelf is empty";
   }
 
   const lines: string[] = [];
@@ -28,5 +28,5 @@ export const renderShelf = (
     );
   });
 
-  return lines.join("\n") + "\n";
+  return lines.join("\n");
 };

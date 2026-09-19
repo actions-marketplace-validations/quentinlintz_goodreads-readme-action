@@ -60,6 +60,17 @@ describe("renderShelf", () => {
     expect(markdown).toBe(expectedMarkdown);
   });
 
+  test("input shelf remains unchanged", () => {
+    const input = [
+      { ...bookTwo, title: "Book: 2!", author_name: "Author, 2\\" },
+      bookOne,
+      bookTwo,
+    ];
+    const inputCopied = structuredClone(input);
+    renderShelf(input);
+    expect(inputCopied).toStrictEqual(input);
+  });
+
   test("escaped html text", () => {
     const expectedMarkdown = `- [Book 1](https://www.goodreads.com/book/show/1), \\<i\\>Author 1\\</i\\> ★★★★★
 - [\\<i\\>Book 2\\</i\\>](https://www.goodreads.com/book/show/2), Author 2 ★★★☆☆
@@ -100,6 +111,20 @@ describe("renderShelf", () => {
           author_name: "Author\r\n1\r",
         },
         { ...bookTwo, title: "Book\r2\r", author_name: "Author 2\r\n" },
+      ],
+      true,
+    );
+    expect(markdown).toBe(expectedMarkdown);
+  });
+
+  test("escaped backslash, backtick, underscore, asterisk", () => {
+    const expectedMarkdown =
+      "- [Book 1](https://www.goodreads.com/book/show/1), Author 1 ★★★★★\n" +
+      "- [\\_Book:\\_ \\`2\\!\\!\\`](https://www.goodreads.com/book/show/2), Author \\*2\\*\\.\\\\ ★★★☆☆\n";
+    const markdown = renderShelf(
+      [
+        bookOne,
+        { ...bookTwo, title: "_Book:_ `2!!`", author_name: "Author *2*.\\" },
       ],
       true,
     );

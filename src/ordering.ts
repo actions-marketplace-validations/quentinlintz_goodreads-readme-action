@@ -6,7 +6,7 @@ export enum SortChoice {
 }
 
 export const orderShelf = (
-  books: Book[],
+  shelf: Book[],
   sort: SortChoice = SortChoice.DateAdded,
   limit: number = 10,
 ): Book[] => {
@@ -14,12 +14,12 @@ export const orderShelf = (
     throw new Error("limit must be a positive integer");
   }
 
-  const orderedBooks = [...books];
-  if (orderedBooks.length === 0) {
-    return books;
+  const orderedShelf = [...shelf];
+  if (orderedShelf.length === 0) {
+    return shelf;
   }
 
-  orderedBooks.sort((a, b) => {
+  orderedShelf.sort((a, b) => {
     if (sort === SortChoice.DateAdded) {
       if (a.user_date_added === b.user_date_added) return 0;
       const bookA = a.user_date_added ?? -Infinity;
@@ -35,5 +35,5 @@ export const orderShelf = (
     }
   });
 
-  return orderedBooks.slice(0, limit);
+  return orderedShelf.slice(0, limit);
 };

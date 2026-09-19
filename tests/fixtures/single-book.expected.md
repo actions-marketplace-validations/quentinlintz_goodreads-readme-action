@@ -1,1 +1,1 @@
-- [Our Oriental Heritage (The Story of Civilization, #1)\*](https://www.goodreads.com/book/show/49871725), Will Durant
+- [Our Oriental Heritage \(The Story of Civilization, \#1\)\*](https://www.goodreads.com/book/show/49871725), Will Durant

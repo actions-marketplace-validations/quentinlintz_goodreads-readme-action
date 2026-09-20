@@ -1,0 +1,8 @@
+# Me
+
+## Goodreads
+
+<!-- GOODREADS-LIST:START -->
+- [Designing Data\-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.goodreads.com/book/show/248156714), Martin Kleppmann
+- [The Sea, the Sea](https://www.goodreads.com/book/show/9843479), Iris Murdoch
+<!-- GOODREADS-LIST:END -->

@@ -44,7 +44,7 @@ const actionConfigSchema = z.object({
 });
 type ActionConfig = z.infer<typeof actionConfigSchema>;
 
-type ParseInputsParams = {
+export type ParseInputsParams = {
   goodreadsId: string;
   shelf?: string;
   readmePath?: string;

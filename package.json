@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Automatically update your profile README with any of your public [Goodreads](https://goodreads.com) shelves!",
   "scripts": {
+    "build": "esbuild src/index.ts --bundle --format=cjs --outfile=dist/index.cjs --platform=node --target=node24",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint .",
@@ -25,6 +26,7 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/node": "^24.13.5",
+    "esbuild": "^0.28.2",
     "eslint": "^10.10.0",
     "eslint-config-prettier": "^10.1.8",
     "prettier": "3.9.7",

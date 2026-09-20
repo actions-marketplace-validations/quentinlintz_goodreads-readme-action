@@ -1,0 +1,42 @@
+name: "Goodreads README Action"
+description: "Render your Goodreads shelf on your GitHub profile README"
+author: "Quentin Lintz"
+
+inputs:
+  goodreads-user-id:
+    description: "Your Goodreads profile id"
+    required: true
+  shelf:
+    description: "The target shelf to fetch"
+    default: "currently-reading"
+    required: false
+  readme-path:
+    description: "Your profile README file name"
+    default: "README.md"
+    required: false
+  section:
+    description: "Section to replace in the markdown"
+    default: "GOODREADS-LIST"
+    required: false
+  sort:
+    description: "Sort method: date-added or date-read"
+    default: "date-added"
+    required: false
+  show-rating:
+    description: "Should stars be rendered"
+    default: "false"
+    required: false
+  max-books:
+    description: "Max number of books to render"
+    default: "10"
+    required: false
+
+outputs:
+  changed:
+    description: "True if this invocation changed the README section"
+  book-count:
+    description: "Number of books rendered in README section"
+
+runs:
+  using: "node24"
+  main: "dist/index.cjs"

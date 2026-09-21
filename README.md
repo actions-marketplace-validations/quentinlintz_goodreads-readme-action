@@ -4,15 +4,83 @@ Automatically update your profile README with any of your public [Goodreads](htt
 
 ## Why
 
-This action is for developers who read a lot (like myself). It uses the RSS feed associated with a Goodreads profile to pull shelf data and replaces _part_ of your profile README automatically. It's currently experimental -- see the section below.
+This action is for developers who read a lot (like myself). It uses the RSS feed associated with a Goodreads profile to pull shelf data and replaces _part_ of your profile README automatically. It's currently experimental.
 
-## Milestone 0
+See my [GitHub profile](https://github.com/quentinlintz) for a working example!
 
-The goal of this milestone is to update _my_ "Currently Reading" and "Recently Read" profile README sections with linked books, authors, and optional star ratings. Each invocation will handle one shelf and the workflow will commit both sections together after both succeed.
+## Setup
 
-It's important that the surrounding profile README content is preserved when your workflow makes the commit. A valid, empty shelf clears old books. A failed update from an action leaves the section untouched.
+Start here with this [example](https://github.com/quentinlintz/quentinlintz/blob/main/.github/workflows/rss-workflow.yml) of my `rss-workflow.yml`. Below are just snippets.
 
-For now, I will defer covers, custom templates, and other quality-of-life things that would make this more usable by others. This first milestone will focus on my own preferences.
+- Add HTML-comment markers to your GitHub profile's README.md for replacing.
+
+```markdown
+<!-- GOODREADS-LIST:START -->
+<!-- GOODREADS-LIST:END -->
+```
+
+- Add `quentinlintz/goodreads-readme-action@main` to a workflow in your GitHub profile repo.
+
+```yml
+- name: Pull currently reading
+  uses: quentinlintz/goodreads-readme-action@main
+  with:
+    goodreads-user-id: 123 # Replace this
+    shelf: currently-reading
+    section: GOODREADS-LIST
+    sort: date-added
+    show-rating: false
+    max-books: 5
+```
+
+- Add a commit step at the end of your workflow.
+
+```yml
+- name: Commit Goodreads shelves
+  run: |
+    if [ -n "$(git status --porcelain README.md)" ]; then
+      git config user.name "goodreads-books-bot"
+      git config user.email "goodreads-books-bot@example.com"
+      git add README.md
+      git commit -m "Render Goodreads shelves"
+      git push
+    fi
+```
+
+- When you've pushed this, run the workflow from the Actions tab and your README will be updated.
+
+## Inputs
+
+Customize this to fit how you want it displayed
+
+### Shelf
+
+`shelf` is the name of your Goodreads shelf to target
+
+### Section
+
+`section` is the HTML-comment name which will be replaced between, like:
+
+```markdown
+<!-- GOODREADS-LIST:START -->
+
+- [A Gentleman in Moscow](https://www.goodreads.com/book/show/45695810), Amor Towles ★★★☆☆
+- [Great Songwriting Techniques](https://www.goodreads.com/book/show/39704081), Jack Perricone
+
+<!-- GOODREADS-LIST:END -->
+```
+
+### Show rating
+
+`show-rating` controls whether the star icons are shown for books you've rated
+
+### Sort
+
+`sort` can be `date-added` or `date-read`
+
+### Max books
+
+`max-books` will limit the number of rendered books from your shelf after sorting
 
 ## Behavior
 
@@ -82,7 +150,13 @@ Shelf is empty
 
 If we make a request with an invalid...
 
-- **user id**: we can expect a `404 Not Found` HTTP response.
-- **shelf name**: Goodreads will fall back to the "read" shelf, so we must check the shelf names match somehow.
+- **malformed goodreads id**: fail validation
+- **shelf name**: Goodreads substitutes the shelf with your "read" shelf, but we don't detect this and _may pass_ the read shelf through.
 
-In either case, this action will report an error and preserve the existing section.
+Validation and request failure report an error and preserve your README section.
+
+## Credits
+
+Written by Quentin Lintz, by hand. AI produced no parts of this code.
+
+Inspired by [zwacky/goodreads-profile-workflow](https://github.com/zwacky/goodreads-profile-workflow).

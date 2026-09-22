@@ -2,6 +2,10 @@ name: "Goodreads README Action"
 description: "Render your Goodreads shelf on your GitHub profile README"
 author: "Quentin Lintz"
 
+branding:
+  icon: book-open
+  color: green
+
 inputs:
   goodreads-user-id:
     description: "Your Goodreads profile id"

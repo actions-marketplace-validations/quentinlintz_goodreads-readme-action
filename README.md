@@ -140,13 +140,15 @@ Profile README:
 ```markdown
 <!-- GOODREADS-LIST:START -->
 
-- [A Gentleman in Moscow](https://www.goodreads.com/book/show/45695810), Amor Towles ★★★☆☆
+- [A Gentleman in Moscow](https://www.goodreads.com/book/show/45695810), Amor Towles ★★★☆☆ (3/5)
 - [Great Songwriting Techniques](https://www.goodreads.com/book/show/39704081), Jack Perricone
 
 <!-- GOODREADS-LIST:END -->
 ```
 
 The stars are omitted if the book does not have a user rating or if the user hasn't enabled it. The default ordering is most-recently added at the top.
+
+Goodreads has [added quarter- and half-star ratings](https://www.goodreads.com/blog/show/3199), but I've observed their RSS may not support them yet (as of October 12, 2026). Filled stars show the whole-number portion, while the numeric score preserves the exact RSS rating. The action supports fractional values whenever RSS supplies them.
 
 ### Empty shelf
 
